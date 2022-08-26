@@ -20,6 +20,12 @@
     >
       <NFTs /><br />NFTs
     </router-link>
+    <!-- <router-link
+      v-if="network.SBTHandler"
+      :to="{ name: 'nfts', params: { id: !!selected ? selected : null } }"
+    >
+      <SBTs /><br />SBTs
+    </router-link> -->
     <router-link
       :to="{
         name: 'dapps',
